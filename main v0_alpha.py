@@ -1,6 +1,6 @@
 """
 +--------------------------------------------------------------------------------------+
-| Arthrex-SAP COE-RE Web Debugger                                                      |
+| ProgreTech LLC SAP COE-RE Web Debugger                                                      |
 |--------------------------------------------------------------------------------------|
 | Author : Edwin Rodriguez                                                             |
 | Date   : 2026-01-14                                                                  |
@@ -48,8 +48,8 @@ UI_HOST = "127.0.0.1"
 UI_PORT = 8765
 UI_URL = f"http://{UI_HOST}:{UI_PORT}"
 
-# SAP Cloud ALM portal URL (Arthrex org)
-START_URL = "https://arthrex-cloudalm.eu10-004.alm.cloud.sap/launchpad#Shell-home"
+# Example SAP Cloud ALM tenant URL; configure for the target environment.
+START_URL = "https://tenant.example.invalid/launchpad#Shell-home"
 
 # Isolated Chrome profile used for the debug instance only (does not touch your normal profile)
 PROFILE_DIR = Path(os.environ.get("TEMP", "/tmp")) / "chrome-cdp-profile"
@@ -254,7 +254,7 @@ INDEX_HTML = r"""
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Arthrex-SAP COE-RE Web Debugger</title>
+  <title>ProgreTech LLC SAP COE-RE Web Debugger</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 16px; }
     .row { display: flex; gap: 12px; }
@@ -327,7 +327,7 @@ INDEX_HTML = r"""
   </style>
 </head>
 <body>
-  <h2>Arthrex-SAP COE-RE Web Debugger</h2>
+  <h2>ProgreTech LLC SAP COE-RE Web Debugger</h2>
   <div class="small mono">CDP: 127.0.0.1:9222 • UI: 127.0.0.1:8765</div>
 
   <div class="row">

@@ -205,7 +205,7 @@ INDEX_HTML = r"""
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Arthrex-SAP COE-RE Web Debugger</title>
+  <title>ProgreTech LLC SAP COE-RE Web Debugger</title>
   <style>
     :root{
       --gap: 12px;
@@ -345,7 +345,7 @@ INDEX_HTML = r"""
   </style>
 </head>
 <body>
-  <h2>Arthrex-SAP COE-RE Web Debugger</h2>
+  <h2>ProgreTech LLC SAP COE-RE Web Debugger</h2>
   <div class="small mono">CDP: 127.0.0.1:9222 • UI: 127.0.0.1:8765</div>
 
   <div class="page">
